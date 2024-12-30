@@ -7,7 +7,6 @@ A custom node for ComfyUI that calculates CLIP and LPIPS similarity scores betwe
 - CLIP similarity score (semantic similarity)
 - LPIPS similarity score (perceptual similarity)
 - GPU acceleration support
-- Easy integration with existing ComfyUI workflows
 
 ## Installation
 
