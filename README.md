@@ -11,7 +11,9 @@ A custom node for ComfyUI that calculates CLIP and LPIPS similarity scores betwe
 
 ## Installation
 
-1. Clone this repository to your ComfyUI custom nodes directory:
+Clone this repository to your ComfyUI custom nodes directory:
 ```bash
 cd ComfyUI/custom_nodes/
-git clone https://github.com/risunobushi/comfyui-image-similarity.git
+git clone https://github.com/risunobushi/ComfyUI-Similarity-Score.git
+cd ComfyUI/custom_nodes/ComfyUI-Similarity-Score
+pip install -r requirements.txt
