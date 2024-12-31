@@ -1,0 +1,15 @@
+[project]
+name = "similarity-score"
+description = "A custom node for ComfyUI that calculates CLIP and LPIPS similarity scores between two images."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["torch>=2.0.0", "torchvision>=0.15.0", "clip-interrogator>=0.6.0", "lpips>=0.1.4", "Pillow>=9.0.0", "numpy>=1.22.0"]
+
+[project.urls]
+Repository = "https://github.com/risunobushi/ComfyUI-Similarity-Score"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-Similarity-Score"
+Icon = ""
