@@ -10,6 +10,6 @@ Repository = "https://github.com/risunobushi/ComfyUI-Similarity-Score"
 #  Used by Comfy Registry https://comfyregistry.org
 
 [tool.comfy]
-PublisherId = ""
+PublisherId = "risunobushi"
 DisplayName = "ComfyUI-Similarity-Score"
 Icon = ""
