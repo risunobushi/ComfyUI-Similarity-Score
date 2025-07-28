@@ -1,5 +1,5 @@
 import torch
-import open_clip as clip
+import open_clip
 from torchvision import transforms
 import lpips
 from PIL import Image
