@@ -1,5 +1,5 @@
 import torch
-import clip
+import open_clip as clip
 from torchvision import transforms
 import lpips
 from PIL import Image
@@ -24,7 +24,7 @@ class ImageSimilarityScores:
     def __init__(self):
         self.device = "cuda" if torch.cuda.is_available() else "cpu"
         # Initialize CLIP
-        self.clip_model, self.clip_preprocess = clip.load("ViT-B/32", device=self.device)
+        self.clip_model, _, self.clip_preprocess = open_clip.create_model_and_transforms('ViT-B-32', pretrained='openai', device=self.device)
         # Initialize LPIPS
         self.lpips_model = lpips.LPIPS(net='alex').to(self.device)
 
